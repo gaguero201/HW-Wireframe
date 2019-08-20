@@ -31,6 +31,19 @@ h1,h2,h3, p {
   background:#ebebeb;
 }
 
-section {
-  width: 495px;
+section, footer {
+  float: left;
+  width: 450px;
 }
+
+footer {
+  width: 885px;
+}
+
+Aside {
+  float: right;
+  width: 120px;
+  padding:7.85em;
+  margin-bottom: 1em;
+}
+
